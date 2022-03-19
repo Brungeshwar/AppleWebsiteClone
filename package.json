@@ -1,8 +1,8 @@
 {
+  "homepage": "http://Brungeshwar.github.io/AppleWebsiteClone",
   "name": "appleclone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https:/Brungeshwar.github.io/AppleClone",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
@@ -19,7 +19,6 @@
     "eject": "react-scripts eject",
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build"
-    
   },
   "eslintConfig": {
     "extends": [
