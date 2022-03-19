@@ -1,8 +1,7 @@
 
 import "./index-1.css"
 
-import {gadgets} from "../data/data"
-//console.log(gadgets);
+
 
 export const Acceseries_cards=function(content)
 {

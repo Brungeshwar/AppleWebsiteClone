@@ -35,6 +35,7 @@
   padding-left: 25px;
   padding-top: 30px;
 }
+
 .g-2 {
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-ipad-air-202203?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1645636337374");
   background-size: cover;
@@ -79,7 +80,7 @@
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-se-202203_GEO_EMEA?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1645721593443");
 
   background-size: cover;
-  min-width: 430px;
+  width: 430px;
   height: 550px;
   flex-shrink: 0;
   border-radius: 20px;
@@ -117,6 +118,7 @@
   padding-left: 25px;
   padding-top: 30px;
 }
+
 .g-eyebrow {
   font-size: 13px;
   font-weight: 300;
@@ -150,6 +152,43 @@
   color: white;
 }
 
+@media screen and (max-width: 1100px) {
+  .g-content {
+    font-size: 13px;
+  }
+  .g-header {
+    font-size: 20px;
+  }
+  .g-1 {
+    width: 230px;
+    height: 350px;
+  }
+  .g-2 {
+    width: 230px;
+    height: 350px;
+  }
+  .g-3 {
+    width: 230px;
+    height: 350px;
+  }
+  .g-4 {
+    width: 230px;
+    height: 350px;
+  }
+  .g-5 {
+    width: 230px;
+    height: 350px;
+  }
+  .g-6 {
+    width: 230px;
+    height: 350px;
+  }
+  .g-7 {
+    width: 230px;
+    height: 350px;
+  }
+}
+
 .card-2 {
   height: 240px;
   width: 400px;
@@ -165,6 +204,13 @@
   font-weight: 600;
   font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue,
     Helvetica, Arial, sans-serif;
+}
+@media screen and (max-width: 1100px) {
+  .card-2 {
+    height: 200px;
+    width: 260px;
+    font-size: 20px;
+  }
 }
 
 .card-3 {
@@ -199,6 +245,15 @@
   height: 300px;
   width: 300px;
   align-self: center;
+}
+@media screen and (max-width: 1100px) {
+  .card-3 {
+    height: 400px;
+    width: 300px;
+  }
+  .card-3 h1 {
+    font-size: 22px;
+  }
 }
 .card-2 p {
   margin-top: 10px;
