@@ -199,9 +199,9 @@
 .card_3_1 {
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-specialist-202108?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=1626296836000");
   height: 600px;
-  width: 500px;
+  width: 480px;
   background-size: cover;
-  font-size: 28px;
+  font-size: 27px;
   font-weight: 600;
   font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue,
     Helvetica, Arial, sans-serif;
@@ -209,6 +209,7 @@
   border: 2px solid rgb(231, 221, 221);
   box-shadow: 0 0 10px 0px rgb(211, 200, 200);
   padding-left: 25px;
+  padding-right: 5px;
   padding-top: 30px;
   border-radius: 20px;
   flex-shrink: 0;
@@ -454,8 +455,8 @@
 
 .card_6 {
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-edu-202108_GEO_IN?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1627513224000");
-  height: 600px;
-  width: 500px;
+  height: 500px;
+  width: 400px;
   background-size: cover;
   border: 2px solid rgb(231, 221, 221);
   box-shadow: 0 0 10px 0px rgb(211, 200, 200);
@@ -480,8 +481,8 @@
 }
 @media screen and (max-width: 1100px) {
   .card_6 {
-    height: 500px;
-    width: 400px;
+    height: 400px;
+    width: 300px;
   }
   .card_6 h1 {
     font-size: 20px;
@@ -498,6 +499,7 @@
   justify-content: flex-start;
   color: #515154;
   font-size: 15px;
+  flex-wrap: wrap;
 }
 .top-head-para {
   font-size: 16px;
