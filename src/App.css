@@ -92,7 +92,7 @@
 }
 .cardCont-1 {
   height: 200px;
-  width: 1200px;
+  width: 95%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -116,7 +116,7 @@
 }
 .cardCont-2 {
   height: 240px;
-  width: 1200px;
+  width: 95%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -149,7 +149,7 @@
 }
 .cardCont {
   height: 580px;
-  width: 1200px;
+  width: 95%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -257,7 +257,7 @@
 }
 .cardCont-3 {
   height: 500px;
-  width: 1200px;
+  width: 95%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -521,7 +521,7 @@
 }
 .cardCont-4 {
   height: 500px;
-  width: 1200px;
+  width: 95%;
   display: flex;
   flex-direction: row;
   align-items: center;
