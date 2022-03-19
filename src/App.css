@@ -1,38 +1,548 @@
-.App {
-  text-align: center;
+.nav-bar {
+  background-color: rgb(48, 47, 47);
+  color: rgb(187, 177, 177);
+  padding-left: 140px;
+  padding-right: 140px;
+  font-family: "Roboto";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.main-background {
+  overflow: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-bar p {
+  padding-top: 14px;
+  font-size: 13px;
+}
+.nav-icons {
+  height: 18px;
+  width: 18px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 1100px) {
+  .nav-bar p {
+    display: none;
+  }
+  #nav-search {
+    display: none;
+  }
+}
+@media screen and (min-width: 1100px) {
+  #nav-triple {
+    display: none;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-background {
+  margin-left: 130px;
+  margin-right: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+}
+.nav-items {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.nav-icons {
+  margin-left: 40px;
+}
+.introduction-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 70px;
+  flex-wrap: wrap;
+}
+.introduction-heading {
+  font-size: 48px;
+  font-weight: 600;
+  width: 680px;
+
+  padding-right: 60px;
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+  color: rgb(119, 113, 113);
+}
+.introduction-sub {
+  display: flex;
+  width: 300px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.card_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  position: absolute;
+  left: 0;
+  transition: 0.5s all ease-out;
+}
+.card_11 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  position: absolute;
+  left: 0;
+  transition: 0.5s all ease-out;
+}
+.cardCont-1 {
+  height: 200px;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.cardCont-1 button {
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border-width: 0px;
+  font-size: 25px;
+  margin: 10px;
+}
+.cardCont-2 {
+  height: 240px;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 70px;
+}
+.cardCont-2 button {
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border-width: 0px;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.card_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  position: absolute;
+  left: 0;
+  transition: 0.5s all ease-out;
+}
+.cardCont {
+  height: 580px;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 70px;
+}
+.cardCont button {
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border-width: 0px;
+  font-size: 25px;
+  margin: 10px;
+}
+.btn-icons {
+  color: #fff;
+  border-width: 0px;
+}
+
+.card_3 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 70px;
+  overflow: auto;
+}
+.img_2 {
+  height: 400px;
+  width: 400px;
+}
+.card_3_1 {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-specialist-202108?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=1626296836000");
+  height: 600px;
+  width: 540px;
+  background-size: cover;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+  color: #1d1d1f;
+  border: 2px solid rgb(231, 221, 221);
+  box-shadow: 0 0 10px 0px rgb(211, 200, 200);
+  padding-left: 25px;
+  padding-top: 30px;
+  border-radius: 20px;
+  flex-shrink: 0;
+}
+.card_3_2 {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-25-apps-202108?wid=960&hei=480&fmt=p-jpg&qlt=95&.v=1626223748000");
+  height: 300px;
+  width: 600px;
+  background-size: cover;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+  color: #1d1d1f;
+  border: 2px solid rgb(231, 221, 221);
+  box-shadow: 0 0 10px 0px rgb(211, 200, 200);
+  padding-left: 25px;
+  padding-top: 30px;
+  border-radius: 20px;
+  margin-bottom: 14px;
+}
+
+.card_3_2__ {
   display: flex;
   flex-direction: column;
+  height: 600px;
+  margin-left: 20px;
+  justify-content: space-between;
+  flex-shrink: 0px;
+}
+.card_3_2_ {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-25-genius-202108?wid=960&hei=480&fmt=p-jpg&qlt=95&.v=1626384443000");
+  height: 300px;
+  width: 600px;
+  background-size: cover;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+  color: #1d1d1f;
+  border: 2px solid rgb(231, 221, 221);
+  box-shadow: 0 0 10px 0px rgb(211, 200, 200);
+  padding-left: 20px;
+  padding-right: 300px;
+  padding-top: 30px;
+  border-radius: 20px;
+}
+
+.card_4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  position: absolute;
+  left: 0;
+  transition: 0.5s all ease-out;
+}
+.cardCont-3 {
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 70px;
+}
+.cardCont-3 button {
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border-width: 0px;
+  font-size: 25px;
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.card_4_1 {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-new-accessories-202203?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1645052150646");
+  height: 500px;
+  width: 400px;
+  background-size: cover;
+  flex-shrink: 0;
+  border: 2px solid rgb(231, 221, 221);
+  box-shadow: 0 0 10px 0px rgb(211, 200, 200);
+  padding-left: 25px;
+  padding-top: 30px;
+  border-radius: 20px;
+  margin: 10px;
+}
+.card_4_1 h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.card_4_1 p {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+  color: #1d1d1f;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card_4_2 {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-allaccessories-202203?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1646846702011");
+  height: 500px;
+  width: 400px;
+  background-size: cover;
+  flex-shrink: 0;
+  border: 2px solid rgb(231, 221, 221);
+  box-shadow: 0 0 10px 0px rgb(211, 200, 200);
+  padding-left: 25px;
+  padding-top: 30px;
+  border-radius: 20px;
+  margin: 10px;
+}
+.card_4_2 h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+
+.card_5 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 70px;
+  overflow: auto;
+}
+.card_5_1 {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-subscriptions-202108?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=1626375547000");
+  height: 550px;
+  width: 500px;
+  background-size: cover;
+  border: 2px solid rgb(231, 221, 221);
+  box-shadow: 0 0 10px 0px rgb(211, 200, 200);
+  padding-left: 25px;
+  padding-top: 30px;
+  border-radius: 20px;
+  margin: 10px;
+  flex-shrink: 0;
+}
+.card_5_1 h1 {
+  color: #1d1d1f;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+}
+.card_5_2 {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-homekit-202110_GEO_IN?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=1634069675000");
+  height: 550px;
+  width: 500px;
+  background-size: cover;
+  border: 2px solid rgb(231, 221, 221);
+  box-shadow: 0 0 10px 0px rgb(211, 200, 200);
+  padding-left: 25px;
+  padding-top: 30px;
+  border-radius: 20px;
+  margin: 10px;
+  flex-shrink: 0;
+}
+.card_5_2 h1 {
+  color: #1d1d1f;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+}
+.card_5_2 p {
+  font-size: 12px;
+  font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+  font-weight: 600;
+  color: #6e6e73;
+}
+
+.card_6 {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-edu-202108_GEO_IN?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1627513224000");
+  height: 600px;
+  width: 500px;
+  background-size: cover;
+  border: 2px solid rgb(231, 221, 221);
+  box-shadow: 0 0 10px 0px rgb(211, 200, 200);
+  padding-left: 25px;
+  padding-top: 30px;
+  border-radius: 20px;
+  margin-bottom: 70px;
+}
+.card_6 h1 {
+  color: #1d1d1f;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+}
+.card_6 p {
+  font-size: 12px;
+  font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+  font-weight: 600;
+  color: #6e6e73;
+}
+
+.li {
+  list-style-type: none;
+}
+
+.end_des {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: #515154;
+  font-size: 15px;
+}
+.top-head-para {
+  font-size: 16px;
+  font-family: "Roboto";
+  margin-bottom: 80px;
+}
+.introduction-heading-image {
+  height: 49px;
+  width: 49px;
+  margin: 6px;
+}
+.introduction-sub-para {
+  display: flex;
+  flex-direction: column;
+}
+
+.card_1_blw_para {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+  color: rgb(119, 113, 113);
+  margin-bottom: 30px;
+}
+
+.down-des {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+  color: #1d1d1f;
+  margin-bottom: 10px;
+}
+.buttons {
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+  background: #e6e6eb;
+  color: #000;
+  text-align: center;
+  border-width: 0px;
+  padding: 8px 16px;
+  margin-right: 20px;
+}
+.des {
+  color: #86868b;
+  margin-top: 60px;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: SF Pro Text, Myriad Set Pro, SF Pro Icons, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+}
+.icon_ {
+  color: rgb(80, 75, 75);
+}
+
+.down-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.down-icon p {
+  margin: 10px;
+  font-size: 15px;
+  margin-left: 25px;
+}
+.end_des p {
+  font-size: 15px;
+  color: black;
+  margin: 2px;
+  font-weight: 600;
+}
+
+.last-para {
+  color: #86868b;
+  font-size: 15px;
+}
+.last-card {
+  display: flex;
+  flex-direction: row;
+  color: #86868b;
+  font-size: 15px;
+  justify-content: space-between;
+}
+.last-card_ {
+  display: flex;
+  flex-direction: row;
+}
+.last-card_ p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card_111 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  position: absolute;
+  left: 0;
+  transition: 0.5s all ease-out;
+}
+.cardCont-4 {
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.cardCont-4 button {
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border-width: 0px;
+  font-size: 25px;
+  margin: 10px;
 }
